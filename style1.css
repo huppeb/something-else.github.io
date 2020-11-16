@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url("https://thumbs.dreamstime.com/b/software-development-applications-apps-business-programming-94997679.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+img {
+  width:20%;
+  height: 100%;
+}
+ul{
+  margin-left: 5%;
+}
+nav{
+  margin-left: 10%;
+}
+
+
+li{
+  display: inline;
+  margin-right: 7%;
+
+
+}
+#enter{
+  margin-left: 15%;
+}
+.intro {
+  width: calc(100vw * 0.50);
+
+  margin: 15% 0 0 25%;
+}
+.socialmedia{
+float: right;
+margin-top: calc(100vh * 0.90);
+width: calc(100vw * 0.15);
+height: calc(100vh * 0.05);
+}
+
+h1 {
+  color: white;
+  margin-left: 15%;
+}
+
+
+
+button {
+  width: 25%;
+  margin-left: 20%;
+  height: 5%;
+  background-color: lightblue;
+}

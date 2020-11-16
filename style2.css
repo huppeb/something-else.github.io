@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: Verdana,Arial, serif;
+}
+
+body{
+  width:100vw;
+  height:100vh;
+
+}
+img{
+  padding-left: 20px;
+border-radius: 100px;
+  width: 80%;
+  height:300px;
+
+}
+
+h2{
+  color:lightblue;
+  margin: 50px 0;
+  border-bottom: 1px solid black;
+
+}
+aside p{
+  padding:10px 0;
+}
+aside h2{
+  margin: 20px 0;
+}
+nav{
+  background-color: darkgrey;
+  margin:0;
+  padding-left:25%;
+  padding-top: 15px;
+  height:35px;
+
+
+}
+li a{
+  text-decoration: none;
+  background:linear-gradient(to bottom, #FF4050 5%, #FF9060 100%);
+  padding:5px;
+  width: auto;
+  height:auto;
+  color: black;
+  text-shadow: 1px 1px darkblue;
+
+}
+
+li a:hover{
+  background:linear-gradient(to bottom, #FF9060 5%, #FF4050 100%);
+  color: black;
+
+}
+
+nav > ul li{
+  display:inline;
+  padding:10px;
+}
+nav ul{
+  width: auto;
+}
+div > ul li{
+  margin-left: 5%;
+  padding:10px 0;
+}
+section > ul li{
+  margin-left: 5%;
+  padding:10px 0;
+}
+aside li{
+  margin:2px 0;
+}
+div hr{
+  margin: 10px 0;
+  padding: 0;
+}
+section p{
+  margin: 10px 0;
+}
+h3+p{
+  text-decoration: underline;
+}
+aside{}
+
+
+.aboutme
+{ display: block;
+  width: 25%;
+  background-color: darkgrey;
+  float:left;
+
+}
+.main{
+  width:auto;
+  height:auto;
+
+
+  padding-top: 5%;
+  margin-left: 15%;
+
+
+
+}
+.profile,.contact,.hobbies,.skills{
+   margin-left: 5%;
+}
+
+.contact{
+  margin-left: 5%;
+}
+
+.hobbies{
+  margin-left:5%;
+}
+.header,.education,.workexp{
+  padding-left: 15%;
+
+}
