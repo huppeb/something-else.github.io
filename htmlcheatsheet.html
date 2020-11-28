@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML knowledge</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h1>HTML knowledge</h1>
+      <h2>an HTML cheatsheet to look back at</h2>
+      <nav>
+        <ul>
+          <li><a href="mainpage.html">home</a> </li>
+          <li><a href="resume.html">resume</a> </li>
+          <li><a href="htmlcheatsheet.html">html</a> </li>
+          <li><a href="hobby.html">hobby</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="section">
+
+      <section>
+        <table>
+          <caption>
+            <h3>base structure code</h3>
+          </caption>
+          <thead>
+            <th>tag</th>
+            <th>purpose</th>
+          </thead>
+          <tbody>
+            <tr id="ptag">
+              <td>&lt;p&gt;</td>
+              <td>this tag is for a paragraph if you want to start a new line the the &lt;br&gt; tag</td>
+            </tr>
+            <tr id="pre">
+              <td>&lt;pre&gt;</td>
+              <td>this is for pre formatted text. It will print exactly as inputed including line breaks</td>
+            </tr>
+            <tr id="htag">
+              <td>&lt;h1&gt; to &lt;h6&gt;</td>
+              <td>These are for different sizes of headers h1 being largest font.</td>
+            </tr>
+            <tr id="div">
+              <td>&lt;div&gt; or &lt;section&gt;</td>
+              <td>both are used to indicate blocks of text except section has a smaller font size.</td>
+            </tr>
+            <tr>
+              <td>&lt;a&gt;</td>
+              <td>This tag is used to create hyper links</td>
+            </tr>
+            <tr>
+              <td>&lt;img&gt;</td>
+              <td>this is used to create an image, size can be modified with css</td>
+            </tr>
+            <tr>
+              <td>&lt;video&gt; </td>
+              <td>used to input an imbedded video into your webpage</td>
+            </tr>
+            <tr>
+              <td>&lt;iframe&gt;</td>
+              <td>used to display a webpage in a webpage but is really useful for youtube videos.</td>
+            </tr>
+            <tr id="italics">
+              <td>&lt;i&gt; &lt;em&gt;</td>
+              <td>these apply italics to text &lt;em&gt; is for emphasizing importance</td>
+            </tr>
+            <tr id="bold">
+              <td>&lt;b&gt; &lt;strong&gt;</td>
+              <td>both apply bold to text &lt;strong&gt; is for strong importance</td>
+            </tr>
+            <tr>
+              <td>&lt;header&gt; &lt;footer&gt;</td>
+              <td>to create a header/footer for your page</td>
+            </tr>
+            <tr>
+              <td>&lt;q&gt; &lt;blockquote&gt;</td>
+              <td>blockquote for a large quote from external source q applies quotation marks</td>
+            </tr>
+            <tr>
+              <td>&lt;span&gt;</td>
+              <td>to apply styling over certain text</td>
+            </tr>
+            <tr>
+              <td>&lt;mark&gt;</td>
+              <td>usually used for highlighting certain text</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+
+    <div class="section">
+      <div class="content">
+        <h2>required code</h2>
+        <p>every html page must have certain tags in order for them to work properly</p>
+        <p>example code:</p>
+
+        <pre><code>
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang="en" dir="ltr"&gt;
+            &lt;head&gt;
+              &lt;meta charset="utf-8"&gt;
+              &lt;title&gt;&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+
+            &lt;/body&gt;
+          &lt;/html&gt;
+        </code></pre>
+
+        <dl class="">
+          <dt>&lt;!DOCTYPE html&gt;</dt>
+          <dd>- tells the interpreter what type of document you are creating</dd>
+          <dt>&lt;html&gt;&lt;/html&gt;</dt>
+          <dd>- this is used to determine the beginning and end of your html document.</dd>
+          <dt>&lt;head&gt;&lt;/head&gt;</dt>
+          <dd>- this tag determines the head of your document where you can add your character<br>
+            set, the title of your webpage and links to your css external files as well as js files.</dd>
+          <dt>&lt;body&gt;&lt;/body&gt;</dt>
+          <dd>- this tag indicates the content of your webpage which will be displayed.</dd>
+        </dl>
+
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+
+</body>
+
+</html>

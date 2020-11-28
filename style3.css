@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+header h1, h2, nav{
+  display: block;
+  border: 1px solid black;
+  padding-top: 5px;
+}
+header{
+
+
+  height:calc(100vh/5);
+  box-sizing: content-box;
+}
+h1{
+padding-left: 42%;
+ background-color: #002462;
+ color:#E5DADA;
+}
+header>div h2{
+  padding: 10px 0 10px 38%;
+  background-color: #840032;
+  color:#E5DADA;
+}
+h3{
+  padding: 5px 0;
+}
+ul{
+  list-style: none;
+  display: block;
+  width:35%;
+  margin-left: 31%;
+  padding: 5px 0 5px 5%;
+  border: 1px solid black;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 7%;
+  padding-bottom: 5px;
+
+}
+/* this is for modifying the color  of my navigation hyperlinks */
+li a{
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+
+  background:linear-gradient(to bottom, #E59500 5%, #FF7500 100%);
+}
+li a:hover{
+  background:linear-gradient(to bottom, #FF7500 5%, #E59500 100%);
+}
+div>h2{
+  padding-left: 30%;
+  padding-bottom: 10px;
+  border: none;
+}
+
+table,thead,th,td,tr{
+  border: 1px solid black;
+}
+/*these four are for spacing purposes such as padding around table cells and spacing out lines in list */
+th,td{
+  padding: 7px;
+}
+table{
+  margin-left: 5%;
+
+
+}
+dt, dd{
+  padding-bottom: 10px;
+}
+dd{
+  padding-left: 2%;
+}
+
+nav{
+  background-color: #02040F;
+  padding-bottom: 5px;
+}
+
+.content{
+  width:80%;
+  margin-left: 10%;
+}
+/*this is for the positioning of the divs within container div*/
+.section{
+
+  width: calc(100vw / 2.01);
+  height:calc(100vh/1.25);
+
+
+
+
+}
+
+/* these are for adding color to my seperate divs and making the even one sit on right side of page*/
+.section:nth-of-type(odd){
+  background-color: #002462;
+  color: #FF7500;
+  float: right;
+
+
+
+
+
+}
+.section:nth-of-type(even){
+  background-color: #840032;
+  color: #E5DADA;
+
+}

@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+  background-color: black;
+}
+.navigation nav a{
+  margin-right: 10px;
+  padding: 5px;
+  text-decoration: none;
+  height:auto;
+  background:linear-gradient(to bottom, #E59500 5%, #FF7500 100%);
+}
+a:hover{
+  background:linear-gradient(to bottom, #FF7500 5%, #E59500 100%);
+}
+p{
+  padding-left: 5%;
+  color: #E5DADA;
+}
+
+
+.title{
+  width:100vw;
+  padding: 5px 0;
+  background-color: #002462;
+  color: #E5DADA;
+
+}
+.title h1{
+  width:50%;
+  margin-left: 45%;
+}
+.description{
+  width:100%;
+  padding: 5px 0;
+  background-color: #840032;
+  color: #E5DADA;
+}
+.description h2{
+  width:60%;
+  margin-left: 32%;
+}
+.navigation{
+  width:100%;
+  padding: 5px 0;
+  background-color: black;
+}
+.navigation nav{
+  width:50%;
+  margin-left: 40%;
+}
+
+.outer{
+  width:100vw;
+  height: calc(100vw/3.75);
+  display: inline-block;
+  animation: backdrop 10s infinite;
+}
+@keyframes backdrop{
+  0% {background-color: darkblue;}
+  50% {background-color: purple;}
+  100% {background-color: darkblue;}
+
+}
+/* these two are for the alignment of the paragraphs*/
+.content{
+  margin: 5% 15% 0 15%;
+
+  line-height: 200%
+}
+.inner1{
+  display: block;
+
+  width: 50%;
+  height: auto;
+}
+/*these two are for the alignment of the video*/
+.video{
+  display: block;
+  float: right;
+  width: 50%;
+  height: auto;
+}
+.inner2{
+  margin: 5% 5% 0 0;
+  padding-left: 2%;
+
+}
+
+/* Slideshow container */
+.div2 {
+  max-width: 85%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images to start */
+.Slides {
+  display: none;
+}
+/* increasing the image size to cover the container.*/
+img{
+  width:100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+
+}
+
+/* moving the next button to the right of the container*/
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+/* Caption text */
+.caption {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.number {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
